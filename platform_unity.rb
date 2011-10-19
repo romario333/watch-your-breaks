@@ -24,6 +24,14 @@ class PlatformUnity < Platform
     @menu.show_all()
   end
 
+  def add_menu_item_separator()
+    menu_item = Gtk::MenuItem.new()
+    @menu.append(menu_item)
+
+    # TODO:
+    @menu.show_all()
+  end
+
   def set_icon(icon)
     case icon
       when :ICON_BREAK
@@ -57,6 +65,10 @@ class PlatformUnity < Platform
 
   def run()
     Gtk.main()
+  end
+
+  def exit()
+    Gtk.main_quit()
   end
 
 end

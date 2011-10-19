@@ -29,6 +29,11 @@ class App
       set_state(:WORKING)
     end
 
+    @platform.add_menu_item_separator()
+    @platform.add_menu_item("Quit") do
+      @platform.exit()
+    end
+
     set_state(:WORKING)
   end
 
