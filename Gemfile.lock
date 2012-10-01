@@ -1,26 +1,26 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    atk (1.0.0)
-      glib2 (>= 1.0.0)
-    cairo (1.10.0)
+    atk (1.1.5)
+      glib2 (>= 1.1.5)
+    cairo (1.12.2)
       pkg-config
-    ffi (1.0.9)
-    gdk_pixbuf2 (1.0.0)
-      glib2 (>= 1.0.0)
-    glib2 (1.0.0)
+    ffi (1.0.11)
+    gdk_pixbuf2 (1.1.5)
+      glib2 (>= 1.1.5)
+    glib2 (1.1.5)
       pkg-config
-    gtk2 (1.0.0)
-      atk (>= 1.0.0)
-      gdk_pixbuf2 (>= 1.0.0)
-      pango (>= 1.0.0)
-    libnotify (0.5.7)
-      ffi (= 1.0.9)
-    pango (1.0.0)
+    gtk2 (1.1.5)
+      atk (>= 1.1.5)
+      gdk_pixbuf2 (>= 1.1.5)
+      pango (>= 1.1.5)
+    libnotify (0.7.4)
+      ffi (~> 1.0.11)
+    pango (1.1.5)
       cairo (>= 1.10.0)
-      glib2 (>= 1.0.0)
-    pkg-config (1.1.2)
-    ruby-libappindicator (0.1.1)
+      glib2 (>= 1.1.5)
+    pkg-config (1.1.4)
+    ruby-libappindicator (0.1.4)
       gtk2
 
 PLATFORMS
